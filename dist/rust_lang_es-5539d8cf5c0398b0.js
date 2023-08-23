@@ -829,7 +829,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('tailwind-csr-trunk-c02afe4d88a210f8_bg.wasm', import.meta.url);
+        input = new URL('rust_lang_es-5539d8cf5c0398b0_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
