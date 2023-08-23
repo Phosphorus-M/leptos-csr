@@ -10,7 +10,12 @@ module.exports = {
       'alfa-slab': ['Alfa Slab One', 'sans-serif'],
       'fira-sans': ['Fira Sans', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      fill: (theme) => ({
+        'shape-fill-light': "rgb(203 213 225 / 1)", 
+        'shape-fill-dark': "rgb(51 65 85 / 1)", 
+      }),
+    },
   },
   plugins: [
     function ({ matchUtilities, theme }) {
